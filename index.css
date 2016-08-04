@@ -1,0 +1,118 @@
+.back-pic {
+    /*background-image: url('pic/Cosmos01.jpg');*/
+    background-color: orange;
+    /*fake temporary*/
+    background-size: cover;
+    height: 100%;
+}
+
+.back-pic1 {
+    /*background-image: url('pic/Cosmos01.jpg');*/
+    background-color: blue;
+    /*fake temporary*/
+    background-size: cover;
+    height: 100%;
+}
+
+.back-pic2 {
+    /*background-image: url('pic/Cosmos01.jpg');*/
+    background-color: red;
+    /*fake temporary*/
+    background-size: cover;
+    height: 200%;
+}
+
+.back-pic3 {
+    /*background-image: url('pic/Cosmos01.jpg');*/
+    background-color: yellow;
+    /*fake temporary*/
+    background-size: cover;
+    height: 100%;
+}
+
+.back-pic4 {
+    /*background-image: url('pic/Cosmos01.jpg');*/
+    background-color: purple;
+    /*fake temporary*/
+    background-size: cover;
+    height: 100%;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.navb {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navs {
+    list-style-type: none;
+    text-align: right;
+}
+
+.nav-item {
+    font-size: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.nav-item a {
+    color: #000;
+}
+
+.nav-item a:hover {
+    text-decoration: none;
+}
+
+.submit-item {
+    font-size: 20px;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.s1-input{
+    padding: 0;
+    padding-right: 5px;
+}
+
+.result-black {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.result {
+    top: 300px;
+}
+
+.web-title {
+    font-size: 45px;
+    margin-top: 20%;
+}
+
+.web-description {
+    font-size: 20px;
+}
+
+.page-info {
+    padding:
+}
+
+.session1 {
+    margin: 150px;
+}
+
+.btn-pass {
+    width: 100%;
+}
