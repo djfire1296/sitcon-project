@@ -92,7 +92,7 @@ body {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     display: none;
@@ -103,8 +103,10 @@ body {
 }
 
 .web-title {
-    font-size: 45px;
-    margin-top: 20%;
+    font-size: 160px;
+    font-weight: bolder;
+    text-shadow: 5px 10px lightgray;
+    margin-top: 0%;
 }
 
 .web-description {
