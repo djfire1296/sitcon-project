@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>JS Bin</title>
+    <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script>
+      $( document ).ready(function () {
+      $("input[type=submit]").on("click", function(e){
+        e.preventDefault();
+        $(".result-black").fadeIn();
+      })
+      });
+    </script>
+</head>
+
+<body>
+    <div class="container-fluid back-pic">
+      <div class="cntl-state" id="home">
+        <div class="row session1">
+              <div class="col-md-8 page-info">
+                  <h1 class="web-title">我要成為密碼邊緣人</h1>
+                  <p class="web-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              </div>
+              <div class="col-md-4 submit-item">
+                  <form action="/text" method="post">
+                      <div class="col-md-9 s1-input">
+                          <input type="password" class="form-control" name="haha">
+                      </div>
+                      <div class="col-md-3 s1-input">
+                          <input type="submit" class="btn btn-default btn-pass">
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+          
+    </div>
+    
+    <div class="result-black">
+        <div class="col-md-8 col-md-offset-2 panel result">
+            <div class="panel-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ab id exercitationem suscipit sit rem aliquid animi corporis reiciendis porro ad facilis deserunt provident reprehenderit veritatis, saepe praesentium, sequi quia.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid back-pic1">
+        <div class="cntl-state" id="project">
+            <div class="row" style="background-color:blue"></div>
+        </div>
+    </div>
+    <div class="container-fluid back-pic2">
+        <div class="cntl-state" id="statistics">
+            <div class="row" style="background-color:green"></div>
+        </div>
+    </div>
+    
+    <div class="container-fluid back-pic3">
+      <div class="cntl-state" id="members">
+            <div class="row" style="background-color:red"></div>
+        </div>
+
+    </div>
+        
+        <div class="container-fluid back-pic4">
+          <div class="cntl-state" id="contat_us">
+            <div class="row" style="background-color:purple"></div>
+        </div>
+        </div>
+        
+    </div>
+
+    <div class="navb">
+        <ul class="navs">
+            <li class="nav-item"><a href="#home">Home</a></li>
+            <li class="nav-item"><a href="#project">Project</a></li>
+            <li class="nav-item"><a href="#statistics">Statistics</a></li>
+            <li class="nav-item"><a href="#members">Members</a></li>
+            <li class="nav-item"><a href="#contactus">Contact us</a></li>
+        </ul>
+    </div>
+    
+</body>
+
+</html>
